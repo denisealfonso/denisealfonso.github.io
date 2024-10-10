@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional resume template built with Bootstrap.">
+    <meta name="keywords" content="HTML5, Bootstrap, Resume, CV, Portfolio">
+    <meta name="author" content="Your Friend's Name">
+    <title>Resume - Your Friend's Name</title>
+    <!-- Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            padding-top: 56px;
+            font-family: Arial, sans-serif;
+        }
+        .profile {
+            background: #f8f9fa;
+            padding: 40px 0;
+        }
+        .profile img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            margin: 30px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+            border-bottom: 2px solid #6c757d;
+            padding-bottom: 10px;
+        }
+        .skills i {
+            margin-right: 10px;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 20px 0;
+            background: #343a40;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Your Friend's Name</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Profile Section -->
+<section id="profile" class="profile text-center">
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        <h1>Your Friend's Name</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi vel consectetur cursus, lorem libero vehicula nunc, ac malesuada libero turpis non augue.</p>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="container">
+    <h2 class="section-title">Experience</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Job Title 1</h4>
+            <h5>Company Name | 2021 - Present</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis lorem libero. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+        </div>
+        <div class="col-md-6">
+            <h4>Job Title 2</h4>
+            <h5>Company Name | 2018 - 2021</h5>
+            <p>Praesent ultricies urna eget turpis dictum, vel euismod turpis bibendum. Cras lacinia neque at metus consequat convallis. Maecenas vel venenatis dolor, ut condimentum purus.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Degree 1</h4>
+            <h5>University Name | 2010 - 2014</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed urna auctor, tincidunt metus vel, iaculis libero.</p>
+        </div>
+        <div class="col-md-6">
+            <h4>Degree 2</h4>
+            <h5>University Name | 2015 - 2017</h5>
+            <p>Nullam ac elit sit amet lorem malesuada viverra. Sed suscipit sollicitudin libero, sit amet rhoncus magna congue et.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h5><i class="fas fa-code"></i> Programming Languages</h5>
+            <p>Lorem ipsum, dolor sit amet, consectetur.</p>
+        </div>
+        <div class="col-md-4">
+            <h5><i class="fas fa-server"></i> Frameworks</h5>
+            <p>Pellentesque, euismod, lorem, libero, vehicula.</p>
+        </div>
+        <div class="col-md-4">
+            <h5><i class="fas fa-database"></i> Databases</h5>
+            <p>Ac, malesuada, libero, turpis, non, augue.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container text-center">
+    <h2 class="section-title">Contact</h2>
+    <p><i class="fas fa-envelope"></i> email@example.com</p>
+    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+    <p><i class="fas fa-map-marker-alt"></i> City, State, Country</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Your Friend's Name. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS from CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
